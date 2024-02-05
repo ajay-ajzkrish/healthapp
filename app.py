@@ -1,7 +1,5 @@
 import streamlit as st
 import pickle as pkl
-from sklearn.preprocessing import StandardScaler
-import pandas as pd
 
 heart = pkl.load(open('heart.pkl','rb'))
 diabetes = pkl.load(open('diabetes.pkl','rb'))
